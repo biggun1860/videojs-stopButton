@@ -10,7 +10,7 @@ class StopButtonToggle extends Button {
   }
 
   buildCSSClass() {
-    return 'vjs-stop-button vjs-icon-square vjs-button vjs-control ${super.buildCSSClass()}';
+    return `vjs-stop-button vjs-icon-square vjs-button vjs-control ${super.buildCSSClass()}`;
   }
 
   handleClick() {
